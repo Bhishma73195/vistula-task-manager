@@ -16,8 +16,8 @@ This project is a simple Task Manager for the Vistula Team Project assignment. I
 - `app.js` – CRUD logic using the Supabase REST API
 - `style.css` – styling
 - `config.json` – public Supabase configuration
-- `contribution.html` – contributor page
-- `contribution.json` – contributor ID data
+- `contribution.html` – [contributor page](http://localhost:63342/vistula-task-manager/contribution.html)
+- `contribution.json` – [2564](https://vistula-team-project-72564.github.io/vistula-task-manager/contribution.json)
 - `.gitignore` – ignores local editor and system files
 
 ## Required setup
