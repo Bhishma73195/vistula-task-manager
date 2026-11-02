@@ -1,0 +1,5 @@
+{
+  "supabaseUrl": "YOUR_SUPABASE_URL",
+  "supabasePublishableKey": "YOUR_SUPABASE_PUBLISHABLE_KEY",
+  "tableName": "tasks"
+}
