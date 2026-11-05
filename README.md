@@ -21,8 +21,9 @@ HTML, CSS, JavaScript, GitHub Pages, Supabase PostgreSQL REST API.
    (never use a secret or service_role key). Leave `tableName` as `tasks`.
 4. Test create, read, edit, complete and delete from the deployed website.
 
-**Warning:** This assignment requires completely public CRUD access. Anyone on
-the internet can change tasks. Never put sensitive information in the demo table.
+web application screenshot-
+<img width="1904" height="1015" alt="Screenshot 2026-11-05 045543" src="https://github.com/user-attachments/assets/cf2506b5-2691-44fc-b551-f9750077866b" />
+
 
 ## GitHub Pages
 Open Settings → Pages → Deploy from a branch → main → /(root).
