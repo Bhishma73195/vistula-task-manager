@@ -3,8 +3,11 @@
 Student ID: **73195**  
 Repository: https://github.com/vistula-team-project-73195/vistula-task-manager  
 Application : https://vistula-team-project-73195.github.io/vistula-task-manager/
+
 Contribution page	: https://vistula-team-project-73195.github.io/vistula-task-manager/contribution.html?utm_source=chatgpt.com
+
 Contribution JSON	: https://vistula-team-project-73195.github.io/vistula-task-manager/contribution.json?utm_source=chatgpt.com
+
 i did project with  Kardelen Su Kurt 72564
 ## Technology
 HTML, CSS, JavaScript, GitHub Pages, Supabase PostgreSQL REST API.
