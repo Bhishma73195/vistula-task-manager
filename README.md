@@ -38,7 +38,7 @@ https://vistula-team-project-73195.github.io/vistula-task-manager/
 ## Team collaboration
 The existing contributor files show student **72564**. 
 
-PULL REUESTS-
+PULL REQUESTS-
 1 .   [ https://github.com/vistula-team-project-73195/vistula-task-manager/pull/2](https://github.com/vistula-team-project-73195/vistula-task-manager/pull/2)
 
 2 .   [ https://github.com/vistula-team-project-73195/vistula-task-manager/pull/4](https://github.com/vistula-team-project-73195/vistula-task-manager/pull/4)
