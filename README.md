@@ -36,8 +36,12 @@ the partner**, not simply committed directly by the repository owner.
 The owner must also create a separate PR into their partner's repository,
 and that PR must be merged.
 
-- **Incoming partner PR**: add the actual merged PR URL
-- **Outgoing PR**: add the actual merged PR URL
+PULL REUESTS-
+<img width="1864" height="984" alt="Screenshot 2026-11-05 045324" src="https://github.com/user-attachments/assets/61d99f57-e0ef-4304-bb51-efeeb4cab0ab" />
+<img width="1906" height="939" alt="Screenshot 2026-11-05 045255" src="https://github.com/user-attachments/assets/53608b7a-bda4-4df2-8cca-fa9ea1fd5609" />
+<img width="1781" height="993" alt="Screenshot 2026-11-05 045219" src="https://github.com/user-attachments/assets/ab785647-c5f7-4f99-ba92-f30a171d7e15" />
+
+
 
 ## Submission
 Submit **only** the working GitHub Pages application URL to Platon once
