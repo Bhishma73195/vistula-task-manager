@@ -45,6 +45,3 @@ PULL REUESTS-
 
 
 
-## Submission
-Submit **only** the working GitHub Pages application URL to Platon once
-Supabase functionality and both Pull Requests are verified.
