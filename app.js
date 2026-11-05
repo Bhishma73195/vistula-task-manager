@@ -78,7 +78,6 @@ function apiBaseUrl() {
 function apiHeaders(extra = {}) {
   return {
     apikey: config.supabasePublishableKey,
-    Authorization: `Bearer ${config.supabasePublishableKey}`,
     'Content-Type': 'application/json',
     ...extra
   };
