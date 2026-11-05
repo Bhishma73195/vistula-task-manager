@@ -244,8 +244,6 @@ async function handleSubmit(event) {
 
   const title = normalizeText(elements.taskTitle.value);
   const description = normalizeText(elements.taskDescription.value);
-  const completed = false;
-
   if (!title) {
     setStatus('Task title is required.', 'error');
     return;
@@ -254,7 +252,7 @@ async function handleSubmit(event) {
   const taskData = {
     title,
     description,
-    completed
+    completed: false
   };
 
   try {
@@ -262,7 +260,8 @@ async function handleSubmit(event) {
       const task = state.tasks.find((item) => String(item.id) === String(editingTaskId));
       const payload = {
         id: task ? task.id : Number(editingTaskId),
-        ...taskData
+        ...taskData,
+        completed: task ? task.completed : false
       };
       await updateTask(editingTaskId, payload);
       setStatus('Task saved successfully.', 'success');
