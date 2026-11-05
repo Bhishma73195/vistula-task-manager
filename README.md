@@ -1,52 +1,44 @@
 # Task Manager – Team Project (IT)
 
-Student ID: **73195**
+Student ID: **73195**  
+Repository: https://github.com/vistula-team-project-73195/vistula-task-manager  
+Application (after GitHub Pages is enabled): https://vistula-team-project-73195.github.io/vistula-task-manager/
 
-## Overview
+## Technology
+HTML, CSS, JavaScript, GitHub Pages, Supabase PostgreSQL REST API.
 
-This project is a simple Task Manager for the Vistula Team Project assignment. It uses:
-- HTML, CSS, and JavaScript
-- Git / GitHub
-- GitHub Pages
-- Supabase PostgreSQL and REST API
+## Requirements implemented
+- Display tasks
+- Create, edit, complete/incomplete and delete tasks
+- Persist tasks via the Supabase REST API
+- Show status/error messages
+- Contributor page reads the ID from `contribution.json`
 
-## Files
+## Database setup
+1. Create a **dedicated demonstration-only** Supabase project.
+2. In the SQL Editor, run [setup/supabase.sql](setup/supabase.sql).
+3. Update `config.json` with the project URL and the **publishable** API key
+   (never use a secret or service_role key). Leave `tableName` as `tasks`.
+4. Test create, read, edit, complete and delete from the deployed website.
 
-- `index.html` – main Task Manager page
-- `app.js` – CRUD logic using the Supabase REST API
-- `style.css` – styling
-- `config.json` – public Supabase configuration
-- `contribution.html` – [contributor page](http://localhost:63342/vistula-task-manager/contribution.html)
-- `contribution.json` – [2564](https://vistula-team-project-72564.github.io/vistula-task-manager/contribution.json)
-- `.gitignore` – ignores local editor and system files
+**Warning:** This assignment requires completely public CRUD access. Anyone on
+the internet can change tasks. Never put sensitive information in the demo table.
 
-## Required setup
+## GitHub Pages
+Open Settings → Pages → Deploy from a branch → main → /(root).
+Verify the deployment at:
+https://vistula-team-project-73195.github.io/vistula-task-manager/
 
-Before deployment, replace the placeholder values in `config.json` with your own public Supabase details:
+## Team collaboration
+The existing contributor files show student **72564**. However, to satisfy
+the assignment, they **must be introduced through a merged PR authored by
+the partner**, not simply committed directly by the repository owner.
+The owner must also create a separate PR into their partner's repository,
+and that PR must be merged.
 
-- `supabaseUrl`
-- `supabasePublishableKey`
+- **Incoming partner PR**: add the actual merged PR URL
+- **Outgoing PR**: add the actual merged PR URL
 
-The table name must remain `tasks`.
-
-## Features
-
-- Display all tasks
-- Add a new task
-- Edit an existing task
-- Mark a task as completed or incomplete
-- Delete a task
-- Show contributor ID from `contribution.json`
-
-## Notes
-
-This package is a code starter and submission-ready project structure, but it still needs:
-1. Your own GitHub repository and GitHub Pages deployment.
-2. Your own Supabase project and public configuration.
-3. The required merged Pull Requests with another student.
-
-## Expected URLs
-
-- Main app: (https://github.com/vistula-team-project-73195/vistula-task-manager)
-- Contributor page: [contributor page](http://localhost:63342/vistula-task-manager/contribution.html)
-- Contributor JSON: [2564](https://vistula-team-project-72564.github.io/vistula-task-manager/contribution.json)
+## Submission
+Submit **only** the working GitHub Pages application URL to Platon once
+Supabase functionality and both Pull Requests are verified.
