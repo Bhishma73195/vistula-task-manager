@@ -2,7 +2,7 @@
 
 Student ID: **73195**  
 Repository: https://github.com/vistula-team-project-73195/vistula-task-manager  
-Application (after GitHub Pages is enabled): https://vistula-team-project-73195.github.io/vistula-task-manager/
+Application : https://vistula-team-project-73195.github.io/vistula-task-manager/
 
 ## Technology
 HTML, CSS, JavaScript, GitHub Pages, Supabase PostgreSQL REST API.
