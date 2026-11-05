@@ -45,6 +45,8 @@ PULL REQUESTS-
 
 3.    https://github.com/vistula-team-project-73195/vistula-task-manager/pull/5
 
+4.    https://github.com/vistula-team-project-73195/vistula-task-manager/pull/6
+
 forked - https://github.com/vistula-team-project-73195/vistula-task-manager-fork
 
 
