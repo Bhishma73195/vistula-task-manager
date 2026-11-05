@@ -47,6 +47,6 @@ This package is a code starter and submission-ready project structure, but it st
 
 ## Expected URLs
 
-- Main app: `(https://github.com/Bhishma73195/vistula-task-manager)`
+- Main app: (https://github.com/vistula-team-project-73195/vistula-task-manager)
 - Contributor page: [contributor page](http://localhost:63342/vistula-task-manager/contribution.html)
 - Contributor JSON: [2564](https://vistula-team-project-72564.github.io/vistula-task-manager/contribution.json)
